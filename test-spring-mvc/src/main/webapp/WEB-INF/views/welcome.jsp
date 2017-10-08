@@ -1,0 +1,17 @@
+
+
+
+<%@ include file="common/header.jspf"%>
+<%@ include file="common/navigation.jspf"%>
+
+
+<div class="container">
+	<h1>
+		Welcome ${name}. <br /> 
+		Now you can <a href="/list-todos">manage your todos.</a>
+
+	</h1>
+</div>
+
+
+<%@ include file="common/footer.jspf"%>
